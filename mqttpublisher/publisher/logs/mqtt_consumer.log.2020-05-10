@@ -1,0 +1,7 @@
+2020-05-10 21:18:18,126 mqtt_consumer[8] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-05-10 21:18:20,325 mqtt_consumer[8] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-05-10 21:18:25,045 mqtt_consumer[8] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-05-10 21:18:29,592 mqtt_consumer[8] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-05-10 21:18:38,751 mqtt_consumer[8] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-05-10 21:18:55,357 mqtt_consumer[8] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-05-10 21:19:28,234 mqtt_consumer[8] on_disconnect(): WARNING - Unexpected disconnection. rc: 1

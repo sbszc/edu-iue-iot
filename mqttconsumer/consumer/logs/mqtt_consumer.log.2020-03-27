@@ -1,0 +1,183 @@
+2020-03-27 19:09:03,101 mqtt_consumer[9] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:09:04,679 mqtt_consumer[9] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:09:42,236 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:09:43,754 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:09:46,263 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:09:50,802 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:09:59,311 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:10:16,490 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:10:50,188 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:22:21,505 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:22:23,472 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:22:26,409 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:22:31,143 mqtt_consumer[7] on_disconnect(): WARNING - Unexpected disconnection. rc: 1
+2020-03-27 19:22:39,822 mqtt_consumer[7] on_connect(): INFO - MQTT connection successful!
+2020-03-27 19:22:40,219 mqtt_consumer[7] on_subscribe(): INFO - Subscribe to topic successful!
+2020-03-27 19:22:40,456 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:22:40,459 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [1.28, 0.66, 0.46]}
+2020-03-27 19:22:50,729 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:22:50,740 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [1.08, 0.64, 0.45]}
+2020-03-27 19:23:00,499 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:23:00,501 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [1.0, 0.64, 0.45]}
+2020-03-27 19:23:10,609 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:23:10,611 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.84, 0.62, 0.45]}
+2020-03-27 19:23:20,468 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:23:20,470 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.87, 0.63, 0.46]}
+2020-03-27 19:23:30,729 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:23:30,731 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.74, 0.61, 0.45]}
+2020-03-27 19:23:40,534 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:23:40,536 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.71, 0.6, 0.45]}
+2020-03-27 19:23:50,452 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:23:50,453 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.6, 0.58, 0.45]}
+2020-03-27 19:24:00,509 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:24:00,512 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.59, 0.58, 0.45]}
+2020-03-27 19:24:10,567 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:24:10,568 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.49, 0.56, 0.44]}
+2020-03-27 19:24:20,540 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:24:20,543 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.42, 0.54, 0.44]}
+2020-03-27 19:24:30,436 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:24:30,437 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.43, 0.54, 0.44]}
+2020-03-27 19:24:40,589 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:24:40,591 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.36, 0.52, 0.43]}
+2020-03-27 19:24:50,543 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:24:50,545 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.38, 0.52, 0.43]}
+2020-03-27 19:25:00,452 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:25:00,494 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.4, 0.52, 0.44]}
+2020-03-27 19:25:10,484 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:25:10,486 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.34, 0.5, 0.43]}
+2020-03-27 19:25:21,204 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:25:21,205 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.29, 0.49, 0.43]}
+2020-03-27 19:25:30,469 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:25:30,527 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.32, 0.49, 0.43]}
+2020-03-27 19:25:40,471 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:25:40,529 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.27, 0.47, 0.42]}
+2020-03-27 19:25:50,502 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:25:50,504 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.3, 0.47, 0.42]}
+2020-03-27 19:26:00,515 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:26:00,518 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.25, 0.46, 0.42]}
+2020-03-27 19:26:10,469 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:26:10,471 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.29, 0.46, 0.42]}
+2020-03-27 19:26:20,452 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:26:20,454 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.24, 0.44, 0.41]}
+2020-03-27 19:26:30,490 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:26:30,493 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.37, 0.46, 0.42]}
+2020-03-27 19:26:40,550 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:26:40,553 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.31, 0.44, 0.42]}
+2020-03-27 19:26:50,474 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:26:50,500 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.34, 0.45, 0.42]}
+2020-03-27 19:27:00,514 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:27:00,542 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.29, 0.43, 0.41]}
+2020-03-27 19:27:10,508 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:27:10,512 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.24, 0.42, 0.41]}
+2020-03-27 19:27:20,496 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:27:20,499 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.61, 0.49, 0.43]}
+2020-03-27 19:27:30,508 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:27:30,510 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.66, 0.5, 0.44]}
+2020-03-27 19:27:40,525 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:27:40,526 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.64, 0.5, 0.44]}
+2020-03-27 19:27:50,496 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:27:50,500 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.54, 0.49, 0.43]}
+2020-03-27 19:28:00,676 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:28:00,681 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.54, 0.49, 0.43]}
+2020-03-27 19:28:10,540 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:28:10,542 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.68, 0.52, 0.44]}
+2020-03-27 19:28:20,669 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:28:20,719 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.57, 0.5, 0.44]}
+2020-03-27 19:28:31,065 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:28:31,117 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.56, 0.5, 0.44]}
+2020-03-27 19:28:40,601 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:28:40,603 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.47, 0.48, 0.44]}
+2020-03-27 19:28:50,561 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:28:50,562 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.48, 0.48, 0.44]}
+2020-03-27 19:29:00,781 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:29:00,783 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.4, 0.47, 0.43]}
+2020-03-27 19:29:10,597 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:29:10,601 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.34, 0.45, 0.43]}
+2020-03-27 19:29:20,562 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:29:20,565 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.36, 0.45, 0.43]}
+2020-03-27 19:29:30,528 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:29:30,534 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.31, 0.44, 0.42]}
+2020-03-27 19:29:40,610 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:29:40,611 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.5, 0.47, 0.43]}
+2020-03-27 19:29:50,556 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:29:50,559 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.42, 0.46, 0.43]}
+2020-03-27 19:30:00,548 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:30:00,554 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.52, 0.48, 0.44]}
+2020-03-27 19:30:10,576 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:30:10,579 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.44, 0.46, 0.43]}
+2020-03-27 19:30:20,557 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:30:20,566 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.37, 0.44, 0.43]}
+2020-03-27 19:30:30,564 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:30:30,569 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.39, 0.45, 0.43]}
+2020-03-27 19:30:40,575 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:30:40,581 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.33, 0.43, 0.42]}
+2020-03-27 19:30:50,579 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:30:50,589 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.35, 0.43, 0.42]}
+2020-03-27 19:31:00,566 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:31:00,567 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.3, 0.42, 0.42]}
+2020-03-27 19:31:10,575 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:31:10,577 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.41, 0.44, 0.43]}
+2020-03-27 19:31:20,584 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:31:20,599 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.35, 0.42, 0.42]}
+2020-03-27 19:31:30,592 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:31:30,594 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.37, 0.43, 0.42]}
+2020-03-27 19:31:40,615 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:31:40,616 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.31, 0.41, 0.42]}
+2020-03-27 19:31:50,580 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:31:50,585 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.34, 0.41, 0.42]}
+2020-03-27 19:32:00,580 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:32:00,584 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.29, 0.4, 0.41]}
+2020-03-27 19:32:10,651 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:32:10,656 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.25, 0.39, 0.41]}
+2020-03-27 19:32:20,618 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:32:20,650 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.28, 0.39, 0.41]}
+2020-03-27 19:32:30,641 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:32:30,673 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.24, 0.38, 0.4]}
+2020-03-27 19:32:40,640 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:32:40,645 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.27, 0.38, 0.4]}
+2020-03-27 19:32:50,623 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:32:50,624 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.23, 0.37, 0.4]}
+2020-03-27 19:33:00,625 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:33:00,632 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.27, 0.37, 0.4]}
+2020-03-27 19:33:10,653 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:33:10,657 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.23, 0.36, 0.4]}
+2020-03-27 19:33:21,004 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:33:21,046 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.27, 0.36, 0.4]}
+2020-03-27 19:33:30,628 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:33:30,629 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.22, 0.35, 0.39]}
+2020-03-27 19:33:40,629 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:33:40,630 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.27, 0.36, 0.39]}
+2020-03-27 19:33:51,286 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:33:51,330 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.21, 0.34, 0.39]}
+2020-03-27 19:34:01,678 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:34:01,680 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.18, 0.33, 0.38]}
+2020-03-27 19:34:10,918 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:34:10,921 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.15, 0.31, 0.38]}
+2020-03-27 19:34:20,710 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:34:20,711 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.13, 0.3, 0.37]}
+2020-03-27 19:34:30,728 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:34:30,730 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.18, 0.31, 0.37]}
+2020-03-27 19:34:40,886 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:34:40,888 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.15, 0.3, 0.37]}
+2020-03-27 19:34:50,724 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:34:50,726 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.21, 0.31, 0.37]}
+2020-03-27 19:35:00,693 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:35:00,696 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.18, 0.3, 0.36]}
+2020-03-27 19:35:10,728 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:35:10,729 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.15, 0.29, 0.36]}
+2020-03-27 19:35:20,744 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:35:20,748 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.35, 0.32, 0.37]}
+2020-03-27 19:35:30,705 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:35:30,707 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.29, 0.31, 0.37]}
+2020-03-27 19:35:40,704 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:35:40,706 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.49, 0.35, 0.38]}
+2020-03-27 19:35:50,719 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:35:50,721 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.41, 0.34, 0.37]}
+2020-03-27 19:36:00,693 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:36:00,694 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.35, 0.33, 0.37]}
+2020-03-27 19:36:10,745 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:36:10,766 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.44, 0.35, 0.37]}
+2020-03-27 19:36:20,772 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:36:20,775 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.37, 0.34, 0.37]}
+2020-03-27 19:36:30,726 mqtt_consumer[7] on_message(): INFO - topic: IoT/class/data/123456789
+2020-03-27 19:36:30,729 mqtt_consumer[7] on_message(): INFO - payload: {'loadavg': [0.56, 0.38, 0.38]}

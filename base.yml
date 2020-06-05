@@ -1,0 +1,28 @@
+version: '3'
+services:
+  iot-practice-emqx:
+    container_name: "IoTPracticeEMQX"
+    image: emqx/emqx:v4.0.1
+
+  iot-practice-mqtt-client:
+    container_name: "IoTPracticeMQTTClientx"
+    build: ./mqttconsumer
+    depends_on:
+      - iot-practice-emqx
+      - iot-practice-influxdb
+
+  iot-practice-mqtt-publisher:
+    container_name: "IoTPracticeMQTTPublisherx"
+    build: ./mqttpublisher
+    depends_on:
+      - iot-practice-mqtt-client
+
+  iot-practice-influxdb:
+    image: influxdb:1.8
+    container_name: "IoTPracticeInfluxDb"
+
+  iot-practice-grafana:
+    image: grafana/grafana:7.0.0
+    container_name: "IoTPracticeGrafana"
+    depends_on:
+      - iot-practice-influxdb

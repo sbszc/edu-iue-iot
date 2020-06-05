@@ -1,0 +1,66 @@
+version: '3'
+services:
+  iot-practice-emqx:
+    volumes:
+      - "/opt/emqttd/etc"
+      - "/opt/emqttd/log"
+    env_file:
+      - envs/global.env
+      - envs/dev_emq.env
+    ports:
+      - "1883:1883"
+      - "18083:18083"
+    expose:
+      - "1883"
+      - "18083"
+    restart: unless-stopped
+
+  iot-practice-mqtt-client:
+    volumes:
+      - ./mqttconsumer/consumer:/home/desarrollo/consumer
+    env_file:
+      - envs/global.env
+      - envs/dev_mqtt_client.env
+    # command: /bin/sh -c "sleep 6000;"
+    command: /bin/sh -c "sleep 15; python mqtt_consumer.py"
+    restart: unless-stopped
+    links:
+      - "iot-practice-influxdb:influxdb_mapper"
+
+  iot-practice-mqtt-publisher:
+    volumes:
+      - ./mqttpublisher/publisher:/home/desarrollo/publisher
+    env_file:
+      - envs/global.env
+      - envs/dev_mqtt_client.env
+    # command: /bin/sh -c "sleep 6000;"
+    command: /bin/sh -c "sleep 15; python mqtt_publisher.py"
+    restart: unless-stopped
+
+  iot-practice-influxdb:
+    ports:
+      - "8086:8086"
+      - "8083:8083"
+    expose:
+      - "8086"
+      - "8083"
+    volumes:
+      - "./datainfluxdb:/var/lib/influxdb"
+    env_file:
+      - envs/global.env
+      - envs/dev_influx.env
+    restart: unless-stopped
+
+  iot-practice-grafana:
+    ports:
+      - "3001:3000"
+    expose:
+      - "3001"
+    volumes:
+      - ./monitoring:/var/lib/grafana
+      - /etc/grafana
+      - /var/log/grafana
+    env_file:
+      - envs/global.env
+      - envs/dev_grafana.env
+    restart: unless-stopped

@@ -1,0 +1,2 @@
+2020-05-18 09:12:47,168 mqtt_consumer[8] on_disconnect(): WARNING - Unexpected disconnection. rc: 2
+2020-05-18 09:14:47,360 mqtt_consumer[8] on_disconnect(): WARNING - Unexpected disconnection. rc: 2
