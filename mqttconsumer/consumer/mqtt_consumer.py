@@ -99,7 +99,13 @@ class MQTTConsumer(mqtt.Client):
                 'room': beacon_found['room'],
                 'building': beacon_found['building'],
                 'client': beacon_found['client'],
-                'user': freecon_found['user']['code']
+                'user': freecon_found['user']['code'],
+                'age': freecon_found['user']['age'],
+                'height': freecon_found['user']['height'],
+                'education': freecon_found['user']['education'],
+                'x_position' = mqtt_payload['x_position'],
+                'y_position' = mqtt_payload['y_position'],
+                'z_position' = mqtt_payload['z_position']
             }
 
             self.logger.info(f'time: {time}')

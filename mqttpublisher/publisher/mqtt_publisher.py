@@ -60,27 +60,35 @@ def main():
     start_ciclying(client)
 
 def start_ciclying(client):
-    places_simulation = {
-        '1': [[1, 1], [2000, 2000]],
-        '2': [[21, 30], [2500, 2502]],
-        '3': [[31, 50], [3001, 3007]]
-    }
     #Place n: [freecons, becons]
+    places_simulation = {
+        '1': [[0, 9], [1000, 1004]], #White House
+        '2': [[10, 14], [2000, 2002]], #Jail
+        '3': [[15, 19], [3000, 3002]] #Office
+    }
     while True:
-        random_number = random.randint(1, 5)
-        # place = random.randint(1, len(places_simulation.keys()))
-        place = random.randint(1, 1)
+        place = random.randint(1, len(places_simulation.keys()))
         random_freecon = random.randint(places_simulation[str(place)][0][0], places_simulation[str(place)][0][1])
         random_becon = random.randint(places_simulation[str(place)][1][0], places_simulation[str(place)][1][1])
+        random_x = random.randint(0, 255)
+        random_y = random.randint(0, 255)
+        random_z = random.randint(0, 255)
         msg = dumps({
             'freecon': random_freecon,
-            'now': datetime.strftime(datetime.now() + timedelta(hours = 5), '%Y-%m-%dT%H:%M:%SZ')
+            'now': datetime.strftime(datetime.now() + timedelta(hours = 5), '%Y-%m-%dT%H:%M:%SZ'),
+            'x_position': random_x,
+            'y_position': random_y,
+            'z_position': random_z
         })
-        if random_number in [1, 2, 3, 4]:
+        random_number = random.randint(1, 10)
+        if random_number in [1, 2, 3, 4, 5, 6 ,7]:
             client.publish(topic=f'IoT/mapper/report/{random_becon}',
                 payload=msg, qos=0)
-        else:
+        elif random_number in [8, 9]:
             client.publish(topic=f'IoT/mapper/forbidden/{random_becon}',
+                payload=msg, qos=1)
+        elif random_number in [10]:
+            client.publish(topic=f'IoT/mapper/unlock/{random_becon}',
                 payload=msg, qos=1)
 
         time.sleep(1)
