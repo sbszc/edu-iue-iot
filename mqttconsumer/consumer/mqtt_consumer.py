@@ -103,9 +103,9 @@ class MQTTConsumer(mqtt.Client):
                 'age': freecon_found['user']['age'],
                 'height': freecon_found['user']['height'],
                 'education': freecon_found['user']['education'],
-                'x_position' = mqtt_payload['x_position'],
-                'y_position' = mqtt_payload['y_position'],
-                'z_position' = mqtt_payload['z_position']
+                'x_position': mqtt_payload['x_position'],
+                'y_position': mqtt_payload['y_position'],
+                'z_position': mqtt_payload['z_position']
             }
 
             self.logger.info(f'time: {time}')
